@@ -1,0 +1,41 @@
+@import "fontiran";
+@import "public-styles";
+
+p {
+  margin: 0 !important;
+  padding: 0;
+}
+.wrapper {
+  height: 700px;
+  display: grid;
+  //grid-template-rows: repeat(6, 12fr);
+  grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+  //grid-template-columns: repeat(6, 1fr);
+  //grid-row-gap: 1rem;
+  //grid-column-gap: 1.5rem;
+  grid-gap: 1rem;
+  .item {
+    line-height: 5;
+    text-align: center;
+    border: 1px solid #323539;
+    color: white;
+    background-color: brown;
+    font-size: 2rem;
+  }
+  .item-focus {
+    //grid-row-start: 3;
+    //grid-row-end: 4;
+    //grid-column-start: 3;
+    //grid-column-end: 4;
+    grid-row: 3 / 4;
+    grid-column: 3 / 4;
+    grid-area: 3 / 3 / 4 / 4;
+  }
+}
+
+
+
+
+
+
+

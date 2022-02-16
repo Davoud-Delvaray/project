@@ -4,3 +4,8 @@ package-lock.json
 package.json
 server.js
 .idea
+*.css
+!style.css
+bootstrap.bundle.min.js
+fonts/
+webfonts/
